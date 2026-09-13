@@ -1,0 +1,88 @@
+@import "tailwindcss"; 
+ 
+/* Global Design System */ 
+ 
+:root { 
+  --nova-bg: #0B081B; 
+  --nova-surface: #13102B; 
+  --nova-border: #1A1633; 
+ 
+  --nova-cyan: #00F2FE; 
+  --nova-blue: #00C6FF; 
+  --nova-purple: #C054FF; 
+ 
+  --nova-text: #FFFFFF; 
+  --nova-muted: #C1C7DE; 
+  --nova-nav-text: #C1C7DE; 
+} 
+ 
+.theme-dark {
+  --nova-bg: #0B081B;
+  --nova-surface: #13102B;
+  --nova-border: #1A1633;
+  --nova-text: #FFFFFF;
+  --nova-muted: #C1C7DE;
+  --nova-nav-text: #C1C7DE;
+
+  /* Dark Theme Logo */
+  --nova-logo: #00F2FE;
+  --nova-logo-glow: 0 0 12px rgba(0, 242, 254, 0.7);
+
+   /* Dark Theme Button */
+  --nova-button:  #00F2FE;
+  --nova-button-glow: 0 0 10px rgba(186, 230, 233, 0.35);
+    /* existing variables... */
+  --nova-hover: #00F2FE;
+
+   --nova-cyan: #00F2FE;
+  --nova-cyan-rgb: 0 242 254;
+}
+
+.theme-light {
+  --nova-bg: #F8F9FD;
+  --nova-surface: #FFFFFF;
+  --nova-border: #E2E8F0;
+  --nova-text: #0F172A;
+  --nova-muted: #64748B;
+  --nova-nav-text: #475569;
+
+  /* Light Theme Logo - No bright glow, sharp deep color */
+  --nova-logo: #1E1B4B;
+  --nova-logo-glow: none;
+    /* Light Theme Button */
+  --nova-button: #1E1B4B;
+  --nova-button-glow: none;
+
+  /* existing variables... */
+  --nova-hover: #1E1B4B;
+
+  --nova-cyan: #1E1B4B;
+  --nova-cyan-rgb: 30 27 75;
+}
+ 
+html { 
+  scroll-behavior: smooth; 
+} 
+ 
+body { 
+  margin: 0; 
+  min-width: 320px; 
+  background: var(--nova-bg); 
+  color: var(--nova-text); 
+  font-family: "Inter", "Outfit", "Plus Jakarta Sans", sans-serif; 
+} 
+ 
+* { 
+  box-sizing: border-box; 
+} 
+ 
+button, 
+a { 
+  -webkit-tap-highlight-color: transparent; 
+} 
+ 
+::selection { 
+  background: var(--nova-cyan); 
+  color: #000000; 
+}
+

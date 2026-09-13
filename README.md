@@ -1,16 +1,98 @@
-# React + Vite
+# NOVA — AI Productivity Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Build Better. Work Smarter.**
 
-Currently, two official plugins are available:
+NOVA is a modern AI-powered productivity platform designed to help teams
+organize work, automate repetitive tasks, and improve productivity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project is built as a responsive multi-page SaaS website with a modern
+UI, Dark/Light theme support, reusable React components, smooth animations,
+and responsive layouts for desktop, laptop, tablet, and mobile devices.
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**[View Live Demo →](https://nova-ai-seven-teal.vercel.app/)**
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🤖 AI-powered productivity platform UI
+- 🌓 Dark & Light theme
+- 📱 Fully responsive design
+- 🧭 Responsive Navbar with mobile menu
+- 📊 Interactive productivity dashboard UI
+- ⚡ Features overview
+- 🛍️ Product showcase
+- 🔄 How It Works workflow
+- 🏢 Solutions for different teams
+- 💳 Pricing plans
+- ❓ FAQ section
+- 📩 Contact page
+- ⭐ Testimonials
+- 📈 Productivity statistics
+- 🎨 Modern SaaS design
+- ✨ Smooth animations and transitions
+- 🧩 Reusable React components
+
+## 📄 Pages
+
+| Page | Route |
+|------|-------|
+| Home | `/` |
+| Features | `/features` |
+| Product | `/product` |
+| How It Works | `/how-it-works` |
+| Solutions | `/solutions` |
+| Pricing | `/pricing` |
+| FAQ | `/faq` |
+| Contact | `/contact` |
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Router
+- Framer Motion
+- Lucide React
+
+### Development Tools
+
+- Git
+- GitHub
+- VS Code
+- Vercel
+
+## 🎨 Design
+
+NOVA follows a modern SaaS/productivity dashboard design with:
+
+- Dark and Light themes
+- Theme-aware CSS variables
+- Responsive layouts
+- Modern typography
+- Interactive hover states
+- Smooth transitions
+- Reusable UI components
+- Mobile-first responsive navigation
+
+## 📱 Responsive Design
+
+The website is optimized for:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+
+Special attention was given to responsive navigation, dashboard cards,
+grids, buttons, spacing, typography, and content layouts.
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ritikpl/nova-ai.git
